@@ -1,0 +1,61 @@
+/*======================================== For All =============================*/
+
+img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/*======================================== END For All =============================*/
+
+/*======================================== Login Page =============================*/
+
+.LoginCard{
+  padding: 0.8rem !important;
+}
+.Loginbtn{
+  border: 1px solid #0000008b;
+  border-radius: 1.3rem;
+  margin-bottom: 1rem;
+  box-shadow: 6px 10px 5px #28282879;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.Loginbtn:hover{
+  transform: scale(1.03);
+
+  box-shadow: 1px 14px 5px #28282879;
+}
+.LoginWord{
+  color: black;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.fa-rocket{
+  color: rgb(16, 129, 189);
+  font-size: 1.4rem;
+  margin: 0.3rem 0 ;
+}
+.Loginbtn:hover > .fa-rocket {
+  color: rgb(0, 0, 0) !important;
+  font-size: 1.4rem;
+  margin: 0.3rem 0;
+}
+/*======================================== Login Page =============================*/
+.rooms{
+  max-height: 15rem !important;
+  overflow: scroll !important;
+}
+.roomBtn{
+  width: 5rem !important;
+  margin: 10px;
+}
+.bg-warning{
+  color: black !important;
+}
+.NumberOfStudents{
+  text-align: center;
+  width: 17% !important; 
+  border-radius: 1rem;
+  border: 1px solid #3a3a3ac0;
+}
